@@ -1,2 +1,1 @@
-# CT005_Lab05
-git add .
+#### CT005 – Lab05 – Bùi Minh Tiến – B2604676 – DI2696A1
