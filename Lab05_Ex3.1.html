@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Infographic và video Nhiệm vụ 2.2</title>
+	<style>
+		:root { --primary: #1769aa; --dark: #17324d; --light: #f3f8fc; }
+		* { box-sizing: border-box; }
+		body {
+			margin: 0;
+			font-family: Arial, sans-serif;
+			color: var(--dark);
+			background: var(--light);
+			line-height: 1.6;
+		}
+		main { width: min(1100px, 92%); margin: 0 auto; padding: 36px 0; }
+		header { text-align: center; margin-bottom: 28px; }
+		h1 { margin: 0 0 8px; color: var(--primary); }
+		.intro { margin: 0 auto; max-width: 700px; color: #526575; }
+		.card {
+			background: #fff;
+			border-radius: 14px;
+			padding: 22px;
+			margin-bottom: 24px;
+			box-shadow: 0 5px 18px rgb(23 50 77 / 12%);
+		}
+		h2 { margin-top: 0; color: var(--primary); }
+		.infographic { display: block; width: 100%; height: auto; border-radius: 8px; }
+		.video { position: relative; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 8px; }
+		iframe { width: 100%; height: 100%; border: 0; }
+		footer { text-align: center; font-size: .9rem; color: #687985; padding: 8px 0 20px; }
+	</style>
+</head>
+<body>
+	<main>
+		<header>
+			<h1>Infographic và video học tập</h1>
+			<p class="intro">Nội dung trực quan kết hợp với video hướng dẫn, hỗ trợ thực hiện bài tập Nhiệm vụ 2.2.</p>
+		</header>
+
+		<section class="card" aria-labelledby="info-title">
+			<h2 id="info-title">Infographic</h2>
+			<img class="infographic" src="Lab05_Ex2.1.png" alt="Infographic của bài thực hành">
+		</section>
+
+		<section class="card" aria-labelledby="video-title">
+			<h2 id="video-title">Video bài tập Nhiệm vụ 2.2</h2>
+			<div class="video">
+				<iframe src="https://www.youtube.com/embed/oyFN4sjNYqc" title="Video hướng dẫn Nhiệm vụ 2.2" allowfullscreen></iframe>
+			</div>
+		</section>
+
+		<footer>© 2025 CT005_B2604676 — Nội dung hình ảnh và video thuộc bản quyền của chủ sở hữu tương ứng.</footer>
+	</main>
+</body>
+</html>
